@@ -1,0 +1,72 @@
+================================================================================
+AB Test Comparison Report: With_Agent vs Without_Agent
+================================================================================
+
+【AI Score Change】
+  Without_Agent (Max - First):   +6.05
+  Without_Agent (Final - First): +4.64
+  With_Agent (Max - First):      +7.67
+  With_Agent (Final - First):    +6.55
+
+【Prompt Length】
+  Without_Agent Average: 132.5 chars
+  With_Agent Average:    137.3 chars
+  Without_Agent Change:  +12.3 chars/round
+  With_Agent Change:     +14.2 chars/round
+
+【Input Time (top 5% outliers removed)】
+  Without_Agent per Version: 75.9 sec
+  With_Agent per Version:    91.5 sec
+  Difference:                +15.6 sec
+
+【AI Score by Difficulty】
+  Easy     - Without: 0.00, With: 0.00
+  Medium   - Without: 0.00, With: 0.00
+  Hard     - Without: 0.00, With: 0.00
+
+【Completion Rounds】
+  Without_Agent Average: 3.39 rounds
+  With_Agent Average:    3.35 rounds
+  Difference:            -0.03
+
+【Total Time Spent (top 5% outliers removed)】
+  Without_Agent: 252.4 sec/task
+  With_Agent:    294.9 sec/task
+  Difference:    +42.6 sec
+
+【Round Distribution】
+  Rounds | Without | With
+  -------+---------+------
+    1    |   22.7% |  17.3%
+    2    |   23.3% |  24.0%
+    3    |   16.0% |  16.0%
+    4    |   10.0% |  16.0%
+    5    |    8.0% |  11.3%
+    6    |    6.0% |   8.7%
+    7    |    6.7% |   4.0%
+    8    |    7.3% |   2.7%
+
+【Final Prompt Length】
+  Without_Agent: 132.8 chars
+  With_Agent:    145.0 chars
+  Difference:    +12.3 chars
+
+【Completion Milestones】
+  50% completed by:
+    Without_Agent: 3 rounds
+    With_Agent:    3 rounds
+  90% completed by:
+    Without_Agent: 7 rounds
+    With_Agent:    6 rounds
+
+【Median Completion Rounds】
+  Without_Agent: 3.0 rounds
+  With_Agent:    3.0 rounds
+  Difference:    +0.0 rounds
+
+【Average Rounds for Multi-Round Tasks】
+  Without_Agent: 4.09 rounds
+  With_Agent:    3.85 rounds
+  Difference:    -0.24 rounds
+
+================================================================================

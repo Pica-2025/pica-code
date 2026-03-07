@@ -1,0 +1,118 @@
+
+SECTION 6: DIMENSION IMPACT ANALYSIS REPORT
+================================================================================
+
+Research Question:
+  Which dimensions most impact image generation quality?
+
+Method:
+  Independent samples t-test for each dimension × quality metric
+  Comparison: Has dimension vs Doesn't have dimension
+
+Dataset:
+  N = 150 first-round prompts
+  Total tests: 35 (testable combinations)
+
+================================================================================
+Universal Dimensions (100% Presence - No Comparison Possible):
+================================================================================
+
+SubjectScene:
+  Presence rate: 100.0%
+  All prompts include this dimension
+  Quality metrics (mean scores):
+    AI Similarity       : 68.18
+    User Manual         : 0.00
+    Average Star        : 5.07
+    Style               : 0.00
+    Object Count        : 0.00
+    Perspective         : 0.00
+    Depth & BG          : 0.00
+
+================================================================================
+Comparative Analysis Results:
+================================================================================
+  Significant impacts (p < 0.05): 9 / 35
+
+Top 10 Strongest Impacts:
+
+1. SpatialComposition → AI Similarity
+   Difference: +9.85 points
+   Has: 69.50  No: 59.65
+   t = 4.405, p = 0.0000
+
+2. Style → AI Similarity
+   Difference: +6.29 points
+   Has: 71.24  No: 64.96
+   t = 4.101, p = 0.0001
+
+3. LightingColor → AI Similarity
+   Difference: +5.73 points
+   Has: 69.86  No: 64.13
+   t = 3.348, p = 0.0010
+
+4. DetailTexture → AI Similarity
+   Difference: +4.13 points
+   Has: 70.33  No: 66.20
+   t = 2.611, p = 0.0100
+
+5. Others → AI Similarity
+   Difference: +4.00 points
+   Has: 70.29  No: 66.29
+   t = 2.524, p = 0.0127
+
+6. SpatialComposition → Average Star
+   Difference: +1.37 points
+   Has: 5.25  No: 3.88
+   t = 4.479, p = 0.0000
+
+7. LightingColor → Average Star
+   Difference: +0.90 points
+   Has: 5.33  No: 4.43
+   t = 3.891, p = 0.0002
+
+8. Style → Average Star
+   Difference: +0.85 points
+   Has: 5.48  No: 4.63
+   t = 4.050, p = 0.0001
+
+9. DetailTexture → Average Star
+   Difference: +0.58 points
+   Has: 5.37  No: 4.79
+   t = 2.685, p = 0.0081
+
+================================================================================
+Per-Dimension Summary:
+================================================================================
+
+SubjectScene:
+  Status: Universal (100% presence)
+  No comparative analysis possible
+  Average quality score: 10.46
+
+SpatialComposition:
+  Significant impacts: 2 / 7
+  Average impact: +1.60 points
+  Strongest: AI Similarity (+9.85)
+
+Style:
+  Significant impacts: 2 / 7
+  Average impact: +1.02 points
+  Strongest: AI Similarity (+6.29)
+
+LightingColor:
+  Significant impacts: 2 / 7
+  Average impact: +0.95 points
+  Strongest: AI Similarity (+5.73)
+
+DetailTexture:
+  Significant impacts: 2 / 7
+  Average impact: +0.67 points
+  Strongest: AI Similarity (+4.13)
+
+Others:
+  Significant impacts: 1 / 7
+  Average impact: +0.58 points
+  Strongest: AI Similarity (+4.00)
+
+================================================================================

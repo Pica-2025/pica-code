@@ -1,0 +1,8 @@
+Quality_Metric,Coefficient,Intercept,R_squared,Interpretation
+AI Similarity,2.7455275512725485,57.09106869285891,0.168143401547174,+1 dimension → +2.75 points
+User Manual,0.0,0.0,1.0,+1 dimension → +0.00 points
+Average Star,0.3300593031875464,3.731560415122313,0.1288153910916895,+1 dimension → +0.33 points
+Style,0.0,0.0,1.0,+1 dimension → +0.00 points
+Object Count,0.0,0.0,1.0,+1 dimension → +0.00 points
+Perspective,0.0,0.0,1.0,+1 dimension → +0.00 points
+Depth & BG,0.0,0.0,1.0,+1 dimension → +0.00 points

@@ -1,0 +1,52 @@
+
+SECTION 3:  DIMENSION COVERAGE ANALYSIS REPORT
+================================================================================
+
+Overall Coverage Statistics:
+  Mean dimensions covered: 4.04 / 6 (67.3%)
+  Median: 4 dimensions
+  Standard deviation: 1.47
+  Range: 1 - 6 dimensions
+
+Coverage Distribution:
+  1 dimensions:  10 prompts (  6.7%)
+  2 dimensions:  19 prompts ( 12.7%)
+  3 dimensions:  18 prompts ( 12.0%)
+  4 dimensions:  35 prompts ( 23.3%)
+  5 dimensions:  44 prompts ( 29.3%)
+  6 dimensions:  24 prompts ( 16.0%)
+
+================================================================================
+Dimension-Specific Inclusion Rates:
+================================================================================
+
+SubjectScene:
+  Inclusion rate:     100.0%
+  Avg sentences:      7.8
+  Avg characters:     34
+
+SpatialComposition:
+  Inclusion rate:     86.7%
+  Avg sentences:      7.2
+  Avg characters:     57
+
+LightingColor:
+  Inclusion rate:     70.7%
+  Avg sentences:      3.9
+  Avg characters:     23
+
+Style:
+  Inclusion rate:     51.3%
+  Avg sentences:      1.6
+  Avg characters:     8
+
+DetailTexture:
+  Inclusion rate:     48.0%
+  Avg sentences:      2.9
+  Avg characters:     15
+
+Others:
+  Inclusion rate:     47.3%
+  Avg sentences:      1.7
+  Avg characters:     11
+

@@ -1,0 +1,99 @@
+# ==================== Python ====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+env/
+ENV/
+
+# ==================== Node.js ====================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+dist/
+.cache/
+
+# ==================== 环境变量 ====================
+.env
+.env.local
+.env.*.local
+
+# ==================== 数据库（敏感数据）====================
+*.db
+*.sqlite
+*.sqlite3
+database.db
+
+# ==================== 用户数据（敏感数据）====================
+# 用户信息文件
+users.csv
+users_*.csv
+username*.csv
+*password*.csv
+
+# 生成的图片（用户研究数据）
+data/generations/*
+!data/generations/.gitkeep
+data/revisions/*
+!data/revisions/.gitkeep
+data/thumbs/*
+!data/thumbs/.gitkeep
+data/logs/*
+!data/logs/.gitkeep
+data/exports/*
+!data/exports/.gitkeep
+data/temp/*
+!data/temp/.gitkeep
+
+# 目标图片（根据需要可以包含或排除）
+# data/targets/*
+# !data/targets/.gitkeep
+
+# ==================== 分析输出（可能包含敏感信息）====================
+analysis_output/
+research_output/
+*.xlsx
+*.xls
+
+# ==================== IDE ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ==================== 日志 ====================
+*.log
+logs/
+
+# ==================== 备份文件 ====================
+*.bak
+*.backup
+*.old
+*.tar.gz
+*.zip
+
+# ==================== 临时文件 ====================
+tmp/
+temp/
+.cache/

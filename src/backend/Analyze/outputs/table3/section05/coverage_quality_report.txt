@@ -1,0 +1,74 @@
+
+SECTION 5: COVERAGE-QUALITY RELATIONSHIP REPORT
+================================================================================
+
+Research Question:
+  Does dimension coverage correlate with image generation quality?
+
+Dataset:
+  N = 150 first-round prompts
+
+Correlation Analysis:
+================================================================================
+
+AI Similarity:
+  Pearson r:  +0.410  (p = 0.0000)
+  Spearman ρ: +0.405  (p = 0.0000)
+  Significant: Yes
+
+User Manual:
+  Pearson r:  +nan  (p = nan)
+  Spearman ρ: +nan  (p = nan)
+  Significant: No
+
+Average Star:
+  Pearson r:  +0.359  (p = 0.0000)
+  Spearman ρ: +0.353  (p = 0.0000)
+  Significant: Yes
+
+Style:
+  Pearson r:  +nan  (p = nan)
+  Spearman ρ: +nan  (p = nan)
+  Significant: No
+
+Object Count:
+  Pearson r:  +nan  (p = nan)
+  Spearman ρ: +nan  (p = nan)
+  Significant: No
+
+Perspective:
+  Pearson r:  +nan  (p = nan)
+  Spearman ρ: +nan  (p = nan)
+  Significant: No
+
+Depth & BG:
+  Pearson r:  +nan  (p = nan)
+  Spearman ρ: +nan  (p = nan)
+  Significant: No
+
+Regression Analysis:
+================================================================================
+Impact of +1 dimension on quality:
+
+AI Similarity       : +2.75 points (R² = 0.168)
+User Manual         : +0.00 points (R² = 1.000)
+Average Star        : +0.33 points (R² = 0.129)
+Style               : +0.00 points (R² = 1.000)
+Object Count        : +0.00 points (R² = 1.000)
+Perspective         : +0.00 points (R² = 1.000)
+Depth & BG          : +0.00 points (R² = 1.000)
+
+================================================================================
+Key Findings:
+================================================================================
+
+✓ 2/7 quality metrics show significant correlation
+
+✓ Strongest correlation: AI Similarity
+  r = 0.410, p = 1.8772e-07
+
+✓ Best predictive model: User Manual
+  +1 dimension → +0.00 points
+  R² = 1.000
+
+================================================================================

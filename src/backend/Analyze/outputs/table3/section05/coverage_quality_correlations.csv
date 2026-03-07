@@ -1,0 +1,8 @@
+Quality_Metric,Pearson_r,Pearson_p,Spearman_rho,Spearman_p,Significant,N
+AI Similarity,0.4100529253001055,1.8771956741163896e-07,0.40496651545347,2.7435511060473904e-07,Yes,150
+User Manual,,,,,No,150
+Average Star,0.35890861105814886,6.478489351374132e-06,0.3534147990649817,9.154407003986045e-06,Yes,150
+Style,,,,,No,150
+Object Count,,,,,No,150
+Perspective,,,,,No,150
+Depth & BG,,,,,No,150
